@@ -1,7 +1,7 @@
 # XilinxWinterCampProject
 ## 项目任务
 
-- 利用Vitis AI Library部署CNN模型到ZCU104开发板
+- 利用Vitis AI部署CNN模型到ZCU104开发板
 - 记录延迟、功耗、时序等信息
   - 未经优化
   - 软件优化
