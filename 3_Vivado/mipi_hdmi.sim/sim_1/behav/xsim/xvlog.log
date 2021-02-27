@@ -1,0 +1,288 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_zynq_ultra_ps_e_0_0
+INFO: [VRFC 10-2458] undeclared symbol pl_clk3, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:286]
+INFO: [VRFC 10-2458] undeclared symbol saxigp2_racount, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:545]
+INFO: [VRFC 10-2458] undeclared symbol saxigp2_wacount, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:546]
+INFO: [VRFC 10-2458] undeclared symbol saxigp2_rcount, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:547]
+INFO: [VRFC 10-2458] undeclared symbol saxigp2_wcount, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v:548]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.srcs/sources_1/bd/design_1/ipshared/bbbc/src/mmcme2_drp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mmcme2_drp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xbar_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_auto_us_0/sim/design_1_auto_us_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_auto_us_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_auto_us_1/sim/design_1_auto_us_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_auto_us_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tdata_design_1_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tdata_design_1_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tuser_design_1_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tuser_design_1_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tstrb_design_1_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tstrb_design_1_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tkeep_design_1_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tkeep_design_1_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tid_design_1_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tid_design_1_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tdest_design_1_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tdest_design_1_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tlast_design_1_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tlast_design_1_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_axis_subset_converter_0_0/hdl/top_design_1_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_design_1_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_axis_subset_converter_0_0/sim/design_1_axis_subset_converter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_axis_subset_converter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/sim/bd_d10d_xbar_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_xbar_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/sim/bd_d10d_rx_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_rx_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/ip_0/hdl/bd_d10d_phy_0_hssio_rx_mipi_iobuf_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_phy_0_hssio_rx_mipi_iobuf_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/ip_0/bd_d10d_phy_0_hssio_rx_hssio_wiz_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_phy_0_hssio_rx_hssio_wiz_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/ip_0/bd_d10d_phy_0_hssio_rx_high_speed_selectio_wiz_v3_6_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_phy_0_hssio_rx_high_speed_selectio_wiz_v3_6_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/ip_0/sim/bd_d10d_phy_0_hssio_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_phy_0_hssio_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_phy_0_support
+INFO: [VRFC 10-2458] undeclared symbol dl0_rxskewcalhs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:749]
+INFO: [VRFC 10-2458] undeclared symbol dl1_rxskewcalhs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:786]
+INFO: [VRFC 10-2458] undeclared symbol dl2_rxvalidhs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:821]
+INFO: [VRFC 10-2458] undeclared symbol dl2_rxactivehs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:822]
+INFO: [VRFC 10-2458] undeclared symbol dl2_rxsynchs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:824]
+INFO: [VRFC 10-2458] undeclared symbol dl2_stopstate, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:827]
+INFO: [VRFC 10-2458] undeclared symbol dl2_ulpsactivenot, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:829]
+INFO: [VRFC 10-2458] undeclared symbol dl2_rxclkesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:831]
+INFO: [VRFC 10-2458] undeclared symbol dl2_rxlpdtesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:832]
+INFO: [VRFC 10-2458] undeclared symbol dl2_rxulpsesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:833]
+INFO: [VRFC 10-2458] undeclared symbol dl2_rxvalidesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:836]
+INFO: [VRFC 10-2458] undeclared symbol dl2_errsoths, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:838]
+INFO: [VRFC 10-2458] undeclared symbol dl2_errsotsynchs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:839]
+INFO: [VRFC 10-2458] undeclared symbol dl2_erresc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:840]
+INFO: [VRFC 10-2458] undeclared symbol dl2_errsyncesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:841]
+INFO: [VRFC 10-2458] undeclared symbol dl2_errcontrol, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:842]
+INFO: [VRFC 10-2458] undeclared symbol dl3_rxvalidhs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:857]
+INFO: [VRFC 10-2458] undeclared symbol dl3_rxactivehs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:858]
+INFO: [VRFC 10-2458] undeclared symbol dl3_rxsynchs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:860]
+INFO: [VRFC 10-2458] undeclared symbol dl3_stopstate, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:863]
+INFO: [VRFC 10-2458] undeclared symbol dl3_ulpsactivenot, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:865]
+INFO: [VRFC 10-2458] undeclared symbol dl3_rxclkesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:867]
+INFO: [VRFC 10-2458] undeclared symbol dl3_rxlpdtesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:868]
+INFO: [VRFC 10-2458] undeclared symbol dl3_rxulpsesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:869]
+INFO: [VRFC 10-2458] undeclared symbol dl3_rxvalidesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:872]
+INFO: [VRFC 10-2458] undeclared symbol dl3_errsoths, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:874]
+INFO: [VRFC 10-2458] undeclared symbol dl3_errsotsynchs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:875]
+INFO: [VRFC 10-2458] undeclared symbol dl3_erresc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:876]
+INFO: [VRFC 10-2458] undeclared symbol dl3_errsyncesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:877]
+INFO: [VRFC 10-2458] undeclared symbol dl3_errcontrol, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:878]
+INFO: [VRFC 10-2458] undeclared symbol dl4_rxvalidhs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:901]
+INFO: [VRFC 10-2458] undeclared symbol dl4_rxactivehs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:902]
+INFO: [VRFC 10-2458] undeclared symbol dl4_rxsynchs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:904]
+INFO: [VRFC 10-2458] undeclared symbol dl4_stopstate, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:909]
+INFO: [VRFC 10-2458] undeclared symbol dl4_ulpsactivenot, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:911]
+INFO: [VRFC 10-2458] undeclared symbol dl4_rxclkesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:915]
+INFO: [VRFC 10-2458] undeclared symbol dl4_rxlpdtesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:916]
+INFO: [VRFC 10-2458] undeclared symbol dl4_rxulpsesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:917]
+INFO: [VRFC 10-2458] undeclared symbol dl4_rxvalidesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:920]
+INFO: [VRFC 10-2458] undeclared symbol dl4_errsoths, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:924]
+INFO: [VRFC 10-2458] undeclared symbol dl4_errsotsynchs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:925]
+INFO: [VRFC 10-2458] undeclared symbol dl4_erresc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:926]
+INFO: [VRFC 10-2458] undeclared symbol dl4_errsyncesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:927]
+INFO: [VRFC 10-2458] undeclared symbol dl4_errcontrol, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:928]
+INFO: [VRFC 10-2458] undeclared symbol dl5_rxvalidhs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:951]
+INFO: [VRFC 10-2458] undeclared symbol dl5_rxactivehs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:952]
+INFO: [VRFC 10-2458] undeclared symbol dl5_rxsynchs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:954]
+INFO: [VRFC 10-2458] undeclared symbol dl5_stopstate, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:959]
+INFO: [VRFC 10-2458] undeclared symbol dl5_ulpsactivenot, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:961]
+INFO: [VRFC 10-2458] undeclared symbol dl5_rxclkesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:965]
+INFO: [VRFC 10-2458] undeclared symbol dl5_rxlpdtesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:966]
+INFO: [VRFC 10-2458] undeclared symbol dl5_rxulpsesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:967]
+INFO: [VRFC 10-2458] undeclared symbol dl5_rxvalidesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:970]
+INFO: [VRFC 10-2458] undeclared symbol dl5_errsoths, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:974]
+INFO: [VRFC 10-2458] undeclared symbol dl5_errsotsynchs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:975]
+INFO: [VRFC 10-2458] undeclared symbol dl5_erresc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:976]
+INFO: [VRFC 10-2458] undeclared symbol dl5_errsyncesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:977]
+INFO: [VRFC 10-2458] undeclared symbol dl5_errcontrol, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:978]
+INFO: [VRFC 10-2458] undeclared symbol dl6_rxvalidhs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1000]
+INFO: [VRFC 10-2458] undeclared symbol dl6_rxactivehs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1001]
+INFO: [VRFC 10-2458] undeclared symbol dl6_rxsynchs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1003]
+INFO: [VRFC 10-2458] undeclared symbol dl6_stopstate, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1008]
+INFO: [VRFC 10-2458] undeclared symbol dl6_ulpsactivenot, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1010]
+INFO: [VRFC 10-2458] undeclared symbol dl6_rxclkesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1014]
+INFO: [VRFC 10-2458] undeclared symbol dl6_rxlpdtesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1015]
+INFO: [VRFC 10-2458] undeclared symbol dl6_rxulpsesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1016]
+INFO: [VRFC 10-2458] undeclared symbol dl6_rxvalidesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1019]
+INFO: [VRFC 10-2458] undeclared symbol dl6_errsoths, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1023]
+INFO: [VRFC 10-2458] undeclared symbol dl6_errsotsynchs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1024]
+INFO: [VRFC 10-2458] undeclared symbol dl6_erresc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1025]
+INFO: [VRFC 10-2458] undeclared symbol dl6_errsyncesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1026]
+INFO: [VRFC 10-2458] undeclared symbol dl6_errcontrol, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1027]
+INFO: [VRFC 10-2458] undeclared symbol dl7_rxvalidhs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1049]
+INFO: [VRFC 10-2458] undeclared symbol dl7_rxactivehs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1050]
+INFO: [VRFC 10-2458] undeclared symbol dl7_rxsynchs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1052]
+INFO: [VRFC 10-2458] undeclared symbol dl7_stopstate, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1057]
+INFO: [VRFC 10-2458] undeclared symbol dl7_ulpsactivenot, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1059]
+INFO: [VRFC 10-2458] undeclared symbol dl7_rxclkesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1063]
+INFO: [VRFC 10-2458] undeclared symbol dl7_rxlpdtesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1064]
+INFO: [VRFC 10-2458] undeclared symbol dl7_rxulpsesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1065]
+INFO: [VRFC 10-2458] undeclared symbol dl7_rxvalidesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1068]
+INFO: [VRFC 10-2458] undeclared symbol dl7_errsoths, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1072]
+INFO: [VRFC 10-2458] undeclared symbol dl7_errsotsynchs, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1073]
+INFO: [VRFC 10-2458] undeclared symbol dl7_erresc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1074]
+INFO: [VRFC 10-2458] undeclared symbol dl7_errsyncesc, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1075]
+INFO: [VRFC 10-2458] undeclared symbol dl7_errcontrol, assumed default net type wire [/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_support.v:1076]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0/support/bd_d10d_phy_0_clock_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_phy_0_clock_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0_c1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_phy_0_c1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_phy_0_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_phy_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_4/ip_0/sim/bd_d10d_vfb_0_0_axis_converter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_vfb_0_0_axis_converter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_4/bd_d10d_vfb_0_0/src/verilog/bd_d10d_vfb_0_0_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_vfb_0_0_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_4/bd_d10d_vfb_0_0/src/verilog/bd_d10d_vfb_0_0_fifo_sb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_vfb_0_0_fifo_sb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_4/bd_d10d_vfb_0_0/src/verilog/bd_d10d_vfb_0_0_axis_dconverter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_vfb_0_0_axis_dconverter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_4/bd_d10d_vfb_0_0_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_vfb_0_0_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_4/bd_d10d_vfb_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d_vfb_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/sim/bd_d10d.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_d10d
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/sim/design_1_mipi_csi2_rx_subsyst_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_mipi_csi2_rx_subsyst_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_xbar_1/sim/design_1_xbar_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xbar_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/sim/design_1_v_axi4s_vid_out_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_axi4s_vid_out_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_AXIvideo2MultiBayer2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_AXIvideo2MultiBayer2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_Debayer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_Debayer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_DebayerG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_DebayerG
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_DebayerG_DIV1_TABLE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_DebayerG_DIV1_TABLE_rom
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_DebayerG_DIV1_TABLE
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_DebayerG_DIV2_TABLE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_DebayerG_DIV2_TABLE_rom
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_DebayerG_DIV2_TABLE
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_DebayerG_linebuf_bkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_DebayerG_linebuf_bkb_ram
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_DebayerG_linebuf_bkb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_DebayerRandBatG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_DebayerRandBatG
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_DebayerRatBorBatR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_DebayerRatBorBatR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_DebayerRatBorBatRkbM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_DebayerRatBorBatRkbM_ram
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_DebayerRatBorBatRkbM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w10_d2_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_fifo_w10_d2_A_shiftReg
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_fifo_w10_d2_A
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w10_d2_A_x.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_fifo_w10_d2_A_x_shiftReg
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_fifo_w10_d2_A_x
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w16_d2_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_fifo_w16_d2_A_shiftReg
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_fifo_w16_d2_A
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w16_d2_A_x.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_fifo_w16_d2_A_x_shiftReg
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_fifo_w16_d2_A_x
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_MultiPixStream2AXIvi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_MultiPixStream2AXIvi
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_reg_unsigned_short_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_reg_unsigned_short_s
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_start_for_DebayerpcA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_start_for_DebayerpcA_shiftReg
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_start_for_DebayerpcA
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_start_for_MultiPircU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_start_for_MultiPircU_shiftReg
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_start_for_MultiPircU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_start_for_ZipperRqcK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_start_for_ZipperRqcK_shiftReg
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_start_for_ZipperRqcK
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_v_demosaic_CTRL_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_v_demosaic_CTRL_s_axi
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_v_demosaic_mac_muibs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_v_demosaic_mac_muibs_DSP48_2
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_v_demosaic_mac_muibs
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_v_demosaic_mul_mug8j.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_v_demosaic_mul_mug8j_DSP48_0
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_v_demosaic_mul_mug8j
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_v_demosaic_mul_muhbi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_v_demosaic_mul_muhbi_DSP48_1
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_v_demosaic_mul_muhbi
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_v_demosaic_mul_mujbC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_v_demosaic_mul_mujbC_DSP48_3
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_v_demosaic_mul_mujbC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_v_demosaic_mux_32mb6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_v_demosaic_mux_32mb6
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_v_demosaic_mux_53fYi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_v_demosaic_mux_53fYi
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_ZipperRemoval.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_ZipperRemoval
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/regslice_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regslice_both
+INFO: [VRFC 10-311] analyzing module regslice_forward
+INFO: [VRFC 10-311] analyzing module regslice_reverse
+INFO: [VRFC 10-311] analyzing module regslice_both_w1
+INFO: [VRFC 10-311] analyzing module regslice_forward_w1
+INFO: [VRFC 10-311] analyzing module regslice_reverse_w1
+INFO: [VRFC 10-311] analyzing module ibuf
+INFO: [VRFC 10-311] analyzing module obuf
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_v_demosaic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0_v_demosaic
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_demosaic_0_0/sim/design_1_v_demosaic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_demosaic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_gamma_lut_0_0/hdl/verilog/design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStr
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_gamma_lut_0_0/hdl/verilog/design_1_v_gamma_lut_0_0_fifo_w10_d2_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_gamma_lut_0_0_fifo_w10_d2_A_shiftReg
+INFO: [VRFC 10-311] analyzing module design_1_v_gamma_lut_0_0_fifo_w10_d2_A
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_gamma_lut_0_0/hdl/verilog/design_1_v_gamma_lut_0_0_Gamma.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_gamma_lut_0_0_Gamma
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_gamma_lut_0_0/hdl/verilog/design_1_v_gamma_lut_0_0_Gamma_lut_0_0_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_gamma_lut_0_0_Gamma_lut_0_0_V_ram
+INFO: [VRFC 10-311] analyzing module design_1_v_gamma_lut_0_0_Gamma_lut_0_0_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_gamma_lut_0_0/hdl/verilog/design_1_v_gamma_lut_0_0_MultiPixStream2AXIvi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_gamma_lut_0_0_MultiPixStream2AXIvi
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_gamma_lut_0_0/hdl/verilog/design_1_v_gamma_lut_0_0_reg_unsigned_short_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_gamma_lut_0_0_reg_unsigned_short_s
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_gamma_lut_0_0/hdl/verilog/design_1_v_gamma_lut_0_0_start_for_MultiPibkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_gamma_lut_0_0_start_for_MultiPibkb_shiftReg
+INFO: [VRFC 10-311] analyzing module design_1_v_gamma_lut_0_0_start_for_MultiPibkb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_gamma_lut_0_0/hdl/verilog/design_1_v_gamma_lut_0_0_v_gamma_lut_CTRL_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_gamma_lut_0_0_v_gamma_lut_CTRL_s_axi
+INFO: [VRFC 10-311] analyzing module design_1_v_gamma_lut_0_0_v_gamma_lut_CTRL_s_axi_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_gamma_lut_0_0/hdl/verilog/design_1_v_gamma_lut_0_0_v_gamma_lut.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_gamma_lut_0_0_v_gamma_lut
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_v_gamma_lut_0_0/sim/design_1_v_gamma_lut_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_v_gamma_lut_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/ip/design_1_xlconcat_0_0/sim/design_1_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-311] analyzing module design_1_axi_interconnect_0_0
+INFO: [VRFC 10-311] analyzing module design_1_ps8_0_axi_periph_0
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_1CA5Z32
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_QJIMLI
+INFO: [VRFC 10-311] analyzing module m01_couplers_imp_1D3SAH3
+INFO: [VRFC 10-311] analyzing module m02_couplers_imp_P3UMW5
+INFO: [VRFC 10-311] analyzing module m03_couplers_imp_1E9R4HW
+INFO: [VRFC 10-311] analyzing module m04_couplers_imp_NB1YAO
+INFO: [VRFC 10-311] analyzing module m05_couplers_imp_1FZ4A9T
+INFO: [VRFC 10-311] analyzing module m06_couplers_imp_MPDFMR
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_1A7ZMW4
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_O7FAN0
+INFO: [VRFC 10-311] analyzing module s01_couplers_imp_1F69D31
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/guohui/Work/vivado_prj/mipi-hdmi-vivado-prj/mipi_hdmi.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

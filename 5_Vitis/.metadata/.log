@@ -1,0 +1,1747 @@
+!SESSION 2021-01-07 10:37:52.371 -----------------------------------------------
+eclipse.buildId=2020.1
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+This is a continuation of log file /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/.metadata/.bak_2.log
+Created Time: 2021-01-07 12:14:53.345
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.346
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_pmu_0], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.394
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_pmu_0], Result: [null, {"v_demosaic_0_s_axi_CTRL": {"name": "v_demosaic_0",
+"base": "0x80000000",
+"high": "0x8000FFFF",
+"size": "65536",
+"slaveintf": "s_axi_CTRL",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"mipi_csi2_rx_subsyst_0_csirxss_s_axi": {"name": "mipi_csi2_rx_subsyst_0",
+"base": "0x80010000",
+"high": "0x80011FFF",
+"size": "8192",
+"slaveintf": "csirxss_s_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_vdma_0_S_AXI_LITE": {"name": "axi_vdma_0",
+"base": "0x80020000",
+"high": "0x8002FFFF",
+"size": "65536",
+"slaveintf": "S_AXI_LITE",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"v_gamma_lut_0_s_axi_CTRL": {"name": "v_gamma_lut_0",
+"base": "0x80030000",
+"high": "0x8003FFFF",
+"size": "65536",
+"slaveintf": "s_axi_CTRL",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_dynclk_0_s00_axi": {"name": "axi_dynclk_0",
+"base": "0x80040000",
+"high": "0x8004FFFF",
+"size": "65536",
+"slaveintf": "s00_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_vdma_1_S_AXI_LITE": {"name": "axi_vdma_1",
+"base": "0x80050000",
+"high": "0x8005FFFF",
+"size": "65536",
+"slaveintf": "S_AXI_LITE",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"v_tc_0_ctrl": {"name": "v_tc_0",
+"base": "0x80060000",
+"high": "0x8006FFFF",
+"size": "65536",
+"slaveintf": "ctrl",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"cpu_reg_v1_0_0_s00_axi": {"name": "cpu_reg_v1_0_0",
+"base": "0x80070000",
+"high": "0x8007FFFF",
+"size": "65536",
+"slaveintf": "s00_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"psu_adma_0": {"name": "psu_adma_0",
+"base": "0xFFA80000",
+"high": "0xFFA8FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_adma_1": {"name": "psu_adma_1",
+"base": "0xFFA90000",
+"high": "0xFFA9FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_adma_2": {"name": "psu_adma_2",
+"base": "0xFFAA0000",
+"high": "0xFFAAFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_adma_3": {"name": "psu_adma_3",
+"base": "0xFFAB0000",
+"high": "0xFFABFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_adma_4": {"name": "psu_adma_4",
+"base": "0xFFAC0000",
+"high": "0xFFACFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_adma_5": {"name": "psu_adma_5",
+"base": "0xFFAD0000",
+"high": "0xFFADFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_adma_6": {"name": "psu_adma_6",
+"base": "0xFFAE0000",
+"high": "0xFFAEFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_adma_7": {"name": "psu_adma_7",
+"base": "0xFFAF0000",
+"high": "0xFFAFFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_afi_0": {"name": "psu_afi_0",
+"base": "0xFD360000",
+"high": "0xFD36FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_afi_1": {"name": "psu_afi_1",
+"base": "0xFD370000",
+"high": "0xFD37FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_afi_2": {"name": "psu_afi_2",
+"base": "0xFD380000",
+"high": "0xFD38FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_afi_3": {"name": "psu_afi_3",
+"base": "0xFD390000",
+"high": "0xFD39FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_afi_4": {"name": "psu_afi_4",
+"base": "0xFD3A0000",
+"high": "0xFD3AFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_afi_5": {"name": "psu_afi_5",
+"base": "0xFD3B0000",
+"high": "0xFD3BFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_afi_6": {"name": "psu_afi_6",
+"base": "0xFF9B0000",
+"high": "0xFF9BFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ams": {"name": "psu_ams",
+"base": "0xFFA50000",
+"high": "0xFFA5FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_apm_0": {"name": "psu_apm_0",
+"base": "0xFD0B0000",
+"high": "0xFD0BFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_apm_1": {"name": "psu_apm_1",
+"base": "0xFFA00000",
+"high": "0xFFA0FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_apm_2": {"name": "psu_apm_2",
+"base": "0xFFA10000",
+"high": "0xFFA1FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_apm_5": {"name": "psu_apm_5",
+"base": "0xFD490000",
+"high": "0xFD49FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_apu": {"name": "psu_apu",
+"base": "0xFD5C0000",
+"high": "0xFD5CFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_can_0": {"name": "psu_can_0",
+"base": "0xFF060000",
+"high": "0xFF06FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_can_1": {"name": "psu_can_1",
+"base": "0xFF070000",
+"high": "0xFF07FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_cci_gpv": {"name": "psu_cci_gpv",
+"base": "0xFD6E0000",
+"high": "0xFD6EFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_cci_reg": {"name": "psu_cci_reg",
+"base": "0xFD5E0000",
+"high": "0xFD5EFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_crf_apb": {"name": "psu_crf_apb",
+"base": "0xFD1A0000",
+"high": "0xFD2DFFFF",
+"size": "1310720",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_crl_apb": {"name": "psu_crl_apb",
+"base": "0xFF5E0000",
+"high": "0xFF85FFFF",
+"size": "2621440",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_csu_0": {"name": "psu_csu_0",
+"base": "0xFFCA0000",
+"high": "0xFFCAFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_csudma": {"name": "psu_csudma",
+"base": "0xFFC80000",
+"high": "0xFFC9FFFF",
+"size": "131072",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ctrl_ipi": {"name": "psu_ctrl_ipi",
+"base": "0xFF380000",
+"high": "0xFF3FFFFF",
+"size": "524288",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ddr_phy": {"name": "psu_ddr_phy",
+"base": "0xFD080000",
+"high": "0xFD08FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ddr_qos_ctrl": {"name": "psu_ddr_qos_ctrl",
+"base": "0xFD090000",
+"high": "0xFD09FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ddr_xmpu0_cfg": {"name": "psu_ddr_xmpu0_cfg",
+"base": "0xFD000000",
+"high": "0xFD00FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ddr_xmpu1_cfg": {"name": "psu_ddr_xmpu1_cfg",
+"base": "0xFD010000",
+"high": "0xFD01FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ddr_xmpu2_cfg": {"name": "psu_ddr_xmpu2_cfg",
+"base": "0xFD020000",
+"high": "0xFD02FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ddr_xmpu3_cfg": {"name": "psu_ddr_xmpu3_cfg",
+"base": "0xFD030000",
+"high": "0xFD03FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ddr_xmpu4_cfg": {"name": "psu_ddr_xmpu4_cfg",
+"base": "0xFD040000",
+"high": "0xFD04FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ddr_xmpu5_cfg": {"name": "psu_ddr_xmpu5_cfg",
+"base": "0xFD050000",
+"high": "0xFD05FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ddrc_0": {"name": "psu_ddrc_0",
+"base": "0xFD070000",
+"high": "0xFD070FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_dp": {"name": "psu_dp",
+"base": "0xFD4A0000",
+"high": "0xFD4AFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_dpdma": {"name": "psu_dpdma",
+"base": "0xFD4C0000",
+"high": "0xFD4CFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_efuse": {"name": "psu_efuse",
+"base": "0xFFCC0000",
+"high": "0xFFCCFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ethernet_3": {"name": "psu_ethernet_3",
+"base": "0xFF0E0000",
+"high": "0xFF0EFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_fpd_gpv": {"name": "psu_fpd_gpv",
+"base": "0xFD700000",
+"high": "0xFD7FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_fpd_slcr": {"name": "psu_fpd_slcr",
+"base": "0xFD610000",
+"high": "0xFD68FFFF",
+"size": "524288",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_fpd_slcr_secure": {"name": "psu_fpd_slcr_secure",
+"base": "0xFD690000",
+"high": "0xFD6CFFFF",
+"size": "262144",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_fpd_xmpu_cfg": {"name": "psu_fpd_xmpu_cfg",
+"base": "0xFD5D0000",
+"high": "0xFD5DFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_fpd_xmpu_sink": {"name": "psu_fpd_xmpu_sink",
+"base": "0xFD4F0000",
+"high": "0xFD4FFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_gdma_0": {"name": "psu_gdma_0",
+"base": "0xFD500000",
+"high": "0xFD50FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_gdma_1": {"name": "psu_gdma_1",
+"base": "0xFD510000",
+"high": "0xFD51FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_gdma_2": {"name": "psu_gdma_2",
+"base": "0xFD520000",
+"high": "0xFD52FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_gdma_3": {"name": "psu_gdma_3",
+"base": "0xFD530000",
+"high": "0xFD53FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_gdma_4": {"name": "psu_gdma_4",
+"base": "0xFD540000",
+"high": "0xFD54FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_gdma_5": {"name": "psu_gdma_5",
+"base": "0xFD550000",
+"high": "0xFD55FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_gdma_6": {"name": "psu_gdma_6",
+"base": "0xFD560000",
+"high": "0xFD56FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_gdma_7": {"name": "psu_gdma_7",
+"base": "0xFD570000",
+"high": "0xFD57FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_gpio_0": {"name": "psu_gpio_0",
+"base": "0xFF0A0000",
+"high": "0xFF0AFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_gpu": {"name": "psu_gpu",
+"base": "0xFD4B0000",
+"high": "0xFD4BFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_i2c_0": {"name": "psu_i2c_0",
+"base": "0xFF020000",
+"high": "0xFF02FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_i2c_1": {"name": "psu_i2c_1",
+"base": "0xFF030000",
+"high": "0xFF03FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_iou_scntr": {"name": "psu_iou_scntr",
+"base": "0xFF250000",
+"high": "0xFF25FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_iou_scntrs": {"name": "psu_iou_scntrs",
+"base": "0xFF260000",
+"high": "0xFF26FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_iousecure_slcr": {"name": "psu_iousecure_slcr",
+"base": "0xFF240000",
+"high": "0xFF24FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_iouslcr_0": {"name": "psu_iouslcr_0",
+"base": "0xFF180000",
+"high": "0xFF23FFFF",
+"size": "786432",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ipi_3": {"name": "psu_ipi_3",
+"base": "0xFF330000",
+"high": "0xFF330FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "",
+},
+"psu_ipi_4": {"name": "psu_ipi_4",
+"base": "0xFF331000",
+"high": "0xFF331FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "",
+},
+"psu_ipi_5": {"name": "psu_ipi_5",
+"base": "0xFF332000",
+"high": "0xFF332FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "",
+},
+"psu_ipi_6": {"name": "psu_ipi_6",
+"base": "0xFF333000",
+"high": "0xFF333FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "",
+},
+"psu_lpd_slcr": {"name": "psu_lpd_slcr",
+"base": "0xFF410000",
+"high": "0xFF4AFFFF",
+"size": "655360",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_lpd_slcr_secure": {"name": "psu_lpd_slcr_secure",
+"base": "0xFF4B0000",
+"high": "0xFF4DFFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_lpd_xppu": {"name": "psu_lpd_xppu",
+"base": "0xFF980000",
+"high": "0xFF98FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_lpd_xppu_sink": {"name": "psu_lpd_xppu_sink",
+"base": "0xFF9C0000",
+"high": "0xFF9CFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_mbistjtag": {"name": "psu_mbistjtag",
+"base": "0xFFCF0000",
+"high": "0xFFCFFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_message_buffers": {"name": "psu_message_buffers",
+"base": "0xFF990000",
+"high": "0xFF99FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ocm": {"name": "psu_ocm",
+"base": "0xFF960000",
+"high": "0xFF96FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ocm_xmpu_cfg": {"name": "psu_ocm_xmpu_cfg",
+"base": "0xFFA70000",
+"high": "0xFFA7FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_pcie": {"name": "psu_pcie",
+"base": "0xFD0E0000",
+"high": "0xFD0EFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_pcie_attrib_0": {"name": "psu_pcie_attrib_0",
+"base": "0xFD480000",
+"high": "0xFD48FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_pcie_dma": {"name": "psu_pcie_dma",
+"base": "0xFD0F0000",
+"high": "0xFD0FFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_pmu_global_0": {"name": "psu_pmu_global_0",
+"base": "0xFFD80000",
+"high": "0xFFDBFFFF",
+"size": "262144",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_pmu_iomodule": {"name": "psu_pmu_iomodule",
+"base": "0xFFD40000",
+"high": "0xFFD5FFFF",
+"size": "131072",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_qspi_0": {"name": "psu_qspi_0",
+"base": "0xFF0F0000",
+"high": "0xFF0FFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_qspi_linear_0": {"name": "psu_qspi_linear_0",
+"base": "0xC0000000",
+"high": "0xDFFFFFFF",
+"size": "536870912",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_rpu": {"name": "psu_rpu",
+"base": "0xFF9A0000",
+"high": "0xFF9AFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_rsa": {"name": "psu_rsa",
+"base": "0xFFCE0000",
+"high": "0xFFCEFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_rtc": {"name": "psu_rtc",
+"base": "0xFFA60000",
+"high": "0xFFA6FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_sd_0": {"name": "psu_sd_0",
+"base": "0xFF160000",
+"high": "0xFF16FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_sd_1": {"name": "psu_sd_1",
+"base": "0xFF170000",
+"high": "0xFF17FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_serdes": {"name": "psu_serdes",
+"base": "0xFD400000",
+"high": "0xFD47FFFF",
+"size": "524288",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_siou": {"name": "psu_siou",
+"base": "0xFD3D0000",
+"high": "0xFD3DFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_smmu_gpv": {"name": "psu_smmu_gpv",
+"base": "0xFD800000",
+"high": "0xFDFFFFFF",
+"size": "8388608",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_smmu_reg": {"name": "psu_smmu_reg",
+"base": "0xFD5F0000",
+"high": "0xFD5FFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ttc_0": {"name": "psu_ttc_0",
+"base": "0xFF110000",
+"high": "0xFF11FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ttc_1": {"name": "psu_ttc_1",
+"base": "0xFF120000",
+"high": "0xFF12FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ttc_2": {"name": "psu_ttc_2",
+"base": "0xFF130000",
+"high": "0xFF13FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ttc_3": {"name": "psu_ttc_3",
+"base": "0xFF140000",
+"high": "0xFF14FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_uart_0": {"name": "psu_uart_0",
+"base": "0xFF000000",
+"high": "0xFF00FFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_usb_0": {"name": "psu_usb_0",
+"base": "0xFF9D0000",
+"high": "0xFF9DFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_usb_xhci_0": {"name": "psu_usb_xhci_0",
+"base": "0xFE200000",
+"high": "0xFE2FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_bbram_0_MEM_0": {"name": "psu_bbram_0",
+"base": "0xFFCD0000",
+"high": "0xFFCDFFFF",
+"size": "65536",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "MEM_0",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ddr_0_MEM_0": {"name": "psu_ddr_0",
+"base": "0x7FF00000",
+"high": "0x7FFFFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "MEM_0",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ddr_0_MEM_1": {"name": "psu_ddr_0",
+"base": "0x0",
+"high": "0x7FEFFFFF",
+"size": "2146435072",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "MEM_1",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_ocm_ram_0_MEM_0": {"name": "psu_ocm_ram_0",
+"base": "0xFFFC0000",
+"high": "0xFFFFFFFF",
+"size": "262144",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "MEM_0",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+"psu_pmu_ram_MEM_0": {"name": "psu_pmu_ram",
+"base": "0xFFDC0000",
+"high": "0xFFDDFFFF",
+"size": "131072",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "MEM_0",
+"acctype": "Read/Write",
+"tz": "NonSecure",
+},
+}]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.396
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_pmu_0 C_DEBUG_ENABLED], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.397
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_pmu_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.398
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_pmu_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.399
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_pmu_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.399
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_pmu_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.400
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_pmu_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.401
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_pmu_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.402
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_pmu_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.402
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_pmu_0 C_FREQ], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.403
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_pmu_0 C_FREQ], Result: [null, 180000000]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.404
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_pmu_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.405
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_pmu_0 C_CPU_CLK_FREQ_HZ], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.405
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_cortexa53_0], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.407
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_cortexa53_0], Result: [null, axi_dynclk_0 axi_vdma_0 axi_vdma_1 cpu_reg_v1_0_0 mipi_csi2_rx_subsyst_0 psu_acpu_gic psu_adma_0 psu_adma_1 psu_adma_2 psu_adma_3 psu_adma_4 psu_adma_5 psu_adma_6 psu_adma_7 psu_afi_0 psu_afi_1 psu_afi_2 psu_afi_3 psu_afi_4 psu_afi_5 psu_afi_6 psu_ams psu_apm_0 psu_apm_1 psu_apm_2 psu_apm_5 psu_apu psu_can_0 psu_can_1 psu_cci_gpv psu_cci_reg psu_coresight_0 psu_crf_apb psu_crl_apb psu_csu_0 psu_csudma psu_ctrl_ipi psu_ddr_0 psu_ddr_1 psu_ddr_phy psu_ddr_qos_ctrl psu_ddr_xmpu0_cfg psu_ddr_xmpu1_cfg psu_ddr_xmpu2_cfg psu_ddr_xmpu3_cfg psu_ddr_xmpu4_cfg psu_ddr_xmpu5_cfg psu_ddrc_0 psu_dp psu_dpdma psu_efuse psu_ethernet_3 psu_fpd_gpv psu_fpd_slcr psu_fpd_slcr_secure psu_fpd_xmpu_cfg psu_fpd_xmpu_sink psu_gdma_0 psu_gdma_1 psu_gdma_2 psu_gdma_3 psu_gdma_4 psu_gdma_5 psu_gdma_6 psu_gdma_7 psu_gpio_0 psu_gpu psu_i2c_0 psu_i2c_1 psu_iou_scntr psu_iou_scntrs psu_iousecure_slcr psu_iouslcr_0 psu_ipi_0 psu_lpd_slcr psu_lpd_slcr_secure psu_lpd_xppu psu_lpd_xppu_sink psu_mbistjtag psu_message_buffers psu_ocm psu_ocm_ram_0 psu_ocm_xmpu_cfg psu_pcie psu_pcie_attrib_0 psu_pcie_dma psu_pcie_high1 psu_pcie_high2 psu_pcie_low psu_pmu_global_0 psu_qspi_0 psu_qspi_linear_0 psu_r5_0_atcm_global psu_r5_0_btcm_global psu_r5_1_atcm_global psu_r5_1_btcm_global psu_r5_tcm_ram_global psu_rcpu_gic psu_rpu psu_rsa psu_rtc psu_sd_0 psu_sd_1 psu_serdes psu_siou psu_smmu_gpv psu_smmu_reg psu_ttc_0 psu_ttc_1 psu_ttc_2 psu_ttc_3 psu_uart_0 psu_usb_0 psu_usb_xhci_0 v_demosaic_0 v_gamma_lut_0 v_tc_0]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.407
+!MESSAGE XSCT Command: [::hsi::utils::get_apm_connection_info -json /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.413
+!MESSAGE XSCT command with result: [::hsi::utils::get_apm_connection_info -json /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa], Result: [null, {"psu_apm_5": "SLOT_0_AXI",
+"psu_apm_0": "SLOT_0_AXI SLOT_1_AXI SLOT_2_AXI SLOT_3_AXI SLOT_4_AXI SLOT_5_AXI",
+"psu_apm_2": "SLOT_0_AXI",
+"psu_apm_1": "SLOT_0_AXI",
+}]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.414
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_0 C_S_AXI_BASEADDR], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.416
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_0 C_S_AXI_BASEADDR], Result: [null, 0xFD0B0000]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.416
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_0 C_ENABLE_PROFILE], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.417
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_0 C_ENABLE_PROFILE], Result: [null, 0]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.418
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_0 C_ENABLE_ADVANCED], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.418
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_0 C_ENABLE_ADVANCED], Result: [null, 1]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.419
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_0 C_NUM_OF_COUNTERS], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.419
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_0 C_NUM_OF_COUNTERS], Result: [null, 10]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.420
+!MESSAGE XSCT Command: [::hsi::utils::get_apm_connection_info -json /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.422
+!MESSAGE XSCT command with result: [::hsi::utils::get_apm_connection_info -json /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa], Result: [null, {"psu_apm_5": "SLOT_0_AXI",
+"psu_apm_0": "SLOT_0_AXI SLOT_1_AXI SLOT_2_AXI SLOT_3_AXI SLOT_4_AXI SLOT_5_AXI",
+"psu_apm_2": "SLOT_0_AXI",
+"psu_apm_1": "SLOT_0_AXI",
+}]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.422
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_1 C_S_AXI_BASEADDR], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.423
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_1 C_S_AXI_BASEADDR], Result: [null, 0xFFA00000]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.423
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_1 C_ENABLE_PROFILE], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.424
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_1 C_ENABLE_PROFILE], Result: [null, 0]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.424
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_1 C_ENABLE_ADVANCED], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.425
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_1 C_ENABLE_ADVANCED], Result: [null, 1]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.425
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_1 C_NUM_OF_COUNTERS], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.426
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_1 C_NUM_OF_COUNTERS], Result: [null, 3]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.426
+!MESSAGE XSCT Command: [::hsi::utils::get_apm_connection_info -json /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.428
+!MESSAGE XSCT command with result: [::hsi::utils::get_apm_connection_info -json /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa], Result: [null, {"psu_apm_5": "SLOT_0_AXI",
+"psu_apm_0": "SLOT_0_AXI SLOT_1_AXI SLOT_2_AXI SLOT_3_AXI SLOT_4_AXI SLOT_5_AXI",
+"psu_apm_2": "SLOT_0_AXI",
+"psu_apm_1": "SLOT_0_AXI",
+}]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.428
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_2 C_S_AXI_BASEADDR], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.429
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_2 C_S_AXI_BASEADDR], Result: [null, 0xFFA10000]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.429
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_2 C_ENABLE_PROFILE], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.430
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_2 C_ENABLE_PROFILE], Result: [null, 0]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.430
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_2 C_ENABLE_ADVANCED], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.431
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_2 C_ENABLE_ADVANCED], Result: [null, 1]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.431
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_2 C_NUM_OF_COUNTERS], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.432
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_2 C_NUM_OF_COUNTERS], Result: [null, 3]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.432
+!MESSAGE XSCT Command: [::hsi::utils::get_apm_connection_info -json /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.438
+!MESSAGE XSCT command with result: [::hsi::utils::get_apm_connection_info -json /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa], Result: [null, {"psu_apm_5": "SLOT_0_AXI",
+"psu_apm_0": "SLOT_0_AXI SLOT_1_AXI SLOT_2_AXI SLOT_3_AXI SLOT_4_AXI SLOT_5_AXI",
+"psu_apm_2": "SLOT_0_AXI",
+"psu_apm_1": "SLOT_0_AXI",
+}]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.440
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_5 C_S_AXI_BASEADDR], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.441
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_5 C_S_AXI_BASEADDR], Result: [null, 0xFD490000]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.442
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_5 C_ENABLE_PROFILE], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.442
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_5 C_ENABLE_PROFILE], Result: [null, 0]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.444
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_5 C_ENABLE_ADVANCED], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.445
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_5 C_ENABLE_ADVANCED], Result: [null, 1]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.445
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_5 C_NUM_OF_COUNTERS], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.446
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa psu_apm_5 C_NUM_OF_COUNTERS], Result: [null, 3]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.447
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa zynq_ultra_ps_e_0 PSU__CRF_APB__DBG_TSTMP_CTRL__ACT_FREQMHZ], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.448
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa zynq_ultra_ps_e_0 PSU__CRF_APB__DBG_TSTMP_CTRL__ACT_FREQMHZ], Result: [null, 249.997498]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.451
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.456
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#6]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.456
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.624
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.624
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.642
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.643
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.710
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  xczu5 (idcode 04720093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.711
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.716
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.716
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.733
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  xczu5 (idcode 04720093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.746
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.755
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.755
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.777
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  xczu5 (idcode 04720093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.777
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.783
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.783
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.800
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  xczu5 (idcode 04720093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.800
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.805
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.806
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.827
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  xczu5 (idcode 04720093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.827
+!MESSAGE XSCT Command: [version -server], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.828
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.1]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.828
+!MESSAGE XSCT Command: [version], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.828
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.1
+SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.828
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.835
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.835
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.851
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  xczu5 (idcode 04720093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.851
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.868
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.869
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.873
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 10000000]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.874
+!MESSAGE XSCT Command: [source /home/Xilinx/Vitis/2020.1/scripts/vitis/util/zynqmp_utils.tcl], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.875
+!MESSAGE XSCT command with result: [source /home/Xilinx/Vitis/2020.1/scripts/vitis/util/zynqmp_utils.tcl], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.875
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.884
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:53.885
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:54.585
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:54.586
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:57.596
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:57.614
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:57.625
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:57.625
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:57.644
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  xczu5 (idcode 04720093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:57.645
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-04720093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:57.675
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-04720093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:14:57.675
+!MESSAGE XSCT Command: [fpga -file /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:02.860
+!MESSAGE XSCT command with result: [fpga -file /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:02.883
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:02.895
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:02.896
+!MESSAGE XSCT Command: [loadhw -hw /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.308
+!MESSAGE XSCT command with result: [loadhw -hw /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs], Result: [null, design_1_wrapper_12]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.309
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.310
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.310
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.315
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.316
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.332
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  xczu5 (idcode 04720093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.332
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.347
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.348
+!MESSAGE XSCT Command: [set mode [expr [mrd -value 0xFF5E0200] & 0xf]], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.359
+!MESSAGE XSCT command with result: [set mode [expr [mrd -value 0xFF5E0200] & 0xf]], Result: [null, 0]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.360
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A53*#0"}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.372
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A53*#0"}], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.372
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.404
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:04.405
+!MESSAGE XSCT Command: [dow /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/boot/fsbl.elf], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:05.526
+!MESSAGE XSCT command with result: [dow /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/boot/fsbl.elf], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:05.526
+!MESSAGE XSCT Command: [set bp_15_5_fsbl_bp [bpadd -addr &XFsbl_Exit]], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:05.583
+!MESSAGE XSCT command with result: [set bp_15_5_fsbl_bp [bpadd -addr &XFsbl_Exit]], Result: [null, 2]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:05.584
+!MESSAGE XSCT Command: [con -block -timeout 60], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:06.628
+!MESSAGE XSCT command with result: [con -block -timeout 60], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:06.628
+!MESSAGE XSCT Command: [bpremove $bp_15_5_fsbl_bp], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:06.683
+!MESSAGE XSCT command with result: [bpremove $bp_15_5_fsbl_bp], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:06.683
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A53*#0"}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:06.693
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A53*#0"}], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:06.693
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:06.720
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:06.720
+!MESSAGE XSCT Command: [dow /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/Debug/Process_Camera_new.elf], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:08.397
+!MESSAGE XSCT command with result: [dow /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/Debug/Process_Camera_new.elf], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:08.397
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:08.399
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:08.413
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A53*#0"}], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:08.426
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A53*#0"}], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:08.426
+!MESSAGE XSCT Command: [con], Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-07 12:15:08.466
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-43: Launching Debugger_Process_Camera_new-Default
+
+!ENTRY org.eclipse.tcf 4 0 2021-01-08 09:35:26.058
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-01-08 09:35:26.059
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-01-08 09:35:26.060
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-11 10:02:00.296
+!MESSAGE XSCT Command: [disconnect tcfchan#6], Thread: Thread-646
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-11 10:02:00.299
+!MESSAGE XSCT command with result: [disconnect tcfchan#6], Result: [null, ]. Thread: Thread-646

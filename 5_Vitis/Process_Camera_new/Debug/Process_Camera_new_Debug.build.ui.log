@@ -1,0 +1,73 @@
+2021-01-07T12:14:36.37372800255-12:14:36 **** Incremental Build of configuration Debug for project Process_Camera_new ****
+000-make all 
+000-Building file: ../src/i2c/PS_i2c.c
+000-Invoking: ARM v8 gcc compiler
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c/PS_i2c.o" -I/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/domain_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/i2c/PS_i2c.d" -MT"src/i2c/PS_i2c.o" -o "src/i2c/PS_i2c.o" "../src/i2c/PS_i2c.c"
+000-Finished building: ../src/i2c/PS_i2c.c
+000- 
+000-Building file: ../src/dynclk/dynclk.c
+000-Invoking: ARM v8 gcc compiler
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -I/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/domain_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.o" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
+000-Finished building: ../src/dynclk/dynclk.c
+000- 
+000-Building file: ../src/display_ctrl/display_ctrl.c
+000-Invoking: ARM v8 gcc compiler
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl/display_ctrl.o" -I/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/domain_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/display_ctrl/display_ctrl.d" -MT"src/display_ctrl/display_ctrl.o" -o "src/display_ctrl/display_ctrl.o" "../src/display_ctrl/display_ctrl.c"
+000-../src/display_ctrl/display_ctrl.c: In function 'DisplayStart':
+000/Process_Camera_new/src/display_ctrl/display_ctrl.c254-1-1cast from pointer to integer of different size [-Wpointer-to-int-cast]1-../src/display_ctrl/display_ctrl.c:254:48: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+000-  254 |   dispPtr->vdmaConfig.FrameStoreStartAddr[i] = (u32)  dispPtr->framePtr[i];
+000-      |                                                ^
+000-Finished building: ../src/display_ctrl/display_ctrl.c
+000- 
+000-Building file: ../src/adv7511.c
+000-Invoking: ARM v8 gcc compiler
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adv7511.o" -I/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/domain_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/adv7511.d" -MT"src/adv7511.o" -o "src/adv7511.o" "../src/adv7511.c"
+000-Finished building: ../src/adv7511.c
+000- 
+000-Building file: ../src/demosaic.c
+000-Invoking: ARM v8 gcc compiler
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demosaic.o" -I/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/domain_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/demosaic.d" -MT"src/demosaic.o" -o "src/demosaic.o" "../src/demosaic.c"
+000-Finished building: ../src/demosaic.c
+000- 
+000-Building file: ../src/display_demo.c
+000-Invoking: ARM v8 gcc compiler
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/domain_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+000-../src/display_demo.c: In function 'main':
+000/Process_Camera_new/src/display_demo.c134-1-1cast from pointer to integer of different size [-Wpointer-to-int-cast]1-../src/display_demo.c:134:71: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+000-  134 |  vdma_write_init(XPAR_AXIVDMA_0_DEVICE_ID,HORSIZE,VERSIZE,DEMO_STRIDE,(unsigned int)pFrames[0]);
+000-      |                                                                       ^
+000-Finished building: ../src/display_demo.c
+000- 
+000-Building file: ../src/gamma_lut.c
+000-Invoking: ARM v8 gcc compiler
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gamma_lut.o" -I/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/domain_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/gamma_lut.d" -MT"src/gamma_lut.o" -o "src/gamma_lut.o" "../src/gamma_lut.c"
+000-In file included from ../src/gamma_lut.c:34:
+000/Process_Camera_new/src/xilinx-gamma-coeff.h3898-1-1'xgamma10_curves' defined but not used [-Wunused-variable]1xgamma10_curves../src/xilinx-gamma-coeff.h:3898:19: warning: 'xgamma10_curves' defined but not used [-Wunused-variable]
+000- 3898 | static const u16 *xgamma10_curves[GAMMA_CURVE_LENGTH] =  {
+000-      |                   ^~~~~~~~~~~~~~~
+000-Finished building: ../src/gamma_lut.c
+000- 
+000-Building file: ../src/ov5640.c
+000-Invoking: ARM v8 gcc compiler
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ov5640.o" -I/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/domain_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/ov5640.d" -MT"src/ov5640.o" -o "src/ov5640.o" "../src/ov5640.c"
+000-Finished building: ../src/ov5640.c
+000- 
+000-Building file: ../src/vdma.c
+000-Invoking: ARM v8 gcc compiler
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma.o" -I/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/domain_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/vdma.d" -MT"src/vdma.o" -o "src/vdma.o" "../src/vdma.c"
+000-Finished building: ../src/vdma.c
+000- 
+000-Building target: Process_Camera_new.elf
+000-Invoking: ARM v8 gcc linker
+000-aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/domain_psu_cortexa53_0/bsplib/lib -o "Process_Camera_new.elf"  ./src/i2c/PS_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/adv7511.o ./src/demosaic.o ./src/display_demo.o ./src/gamma_lut.o ./src/ov5640.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-Finished building target: Process_Camera_new.elf
+000- 
+000-Invoking: ARM v8 Print Size
+000-aarch64-none-elf-size Process_Camera_new.elf  |tee "Process_Camera_new.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  85420	  85352	18686748	18857520	11fbe30	Process_Camera_new.elf
+000-Finished building: Process_Camera_new.elf.size
+000- 
+00255-
+12:14:37 Build Finished (took 1s.532ms)
+

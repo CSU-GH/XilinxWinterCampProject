@@ -1,0 +1,232 @@
+10:38:09 INFO  : Launching XSCT server: xsct -n  -interactive /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/temp_xsdb_launch_script.tcl
+10:38:11 INFO  : Registering command handlers for Vitis TCF services
+10:38:14 INFO  : XSCT server has started successfully.
+10:38:14 INFO  : Successfully done setting XSCT server connection channel  
+10:38:14 INFO  : plnx-install-location is set to ''
+10:38:14 INFO  : Successfully done setting workspace for the tool. 
+10:38:14 INFO  : Successfully done query RDI_DATADIR 
+10:38:14 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+10:38:14 INFO  : Platform repository initialization has completed.
+10:40:02 INFO  : Result from executing command 'getProjects': design_1_wrapper_1
+10:40:02 INFO  : Result from executing command 'getPlatforms': 
+10:40:02 INFO  : Platform 'design_1_wrapper_1' is added to custom repositories.
+10:40:16 INFO  : Platform 'design_1_wrapper_1' is added to custom repositories.
+10:42:19 INFO  : Result from executing command 'getProjects': design_1_wrapper_1
+10:42:19 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_1|/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm
+10:42:22 INFO  : Checking for BSP changes to sync application flags for project 'Process_Camera_new'...
+10:43:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:43:24 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+10:43:24 INFO  : 'jtag frequency' command is executed.
+10:43:24 INFO  : Sourcing of '/home/Xilinx/Vitis/2020.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
+10:43:24 INFO  : Context for 'APU' is selected.
+10:43:25 INFO  : System reset is completed.
+10:43:28 INFO  : 'after 3000' command is executed.
+10:43:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-04720093-0"}' command is executed.
+10:43:28 ERROR : empty bitstream file
+10:43:28 ERROR : Exception occured while running Program FPGA.
+java.lang.RuntimeException: empty bitstream file
+10:43:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/Xilinx/Vitis/2020.1/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+----------------End of Script----------------
+
+10:43:28 ERROR : empty bitstream file
+11:01:28 INFO  : Hardware specification for platform project 'design_1_wrapper_1' is updated.
+11:02:14 INFO  : Result from executing command 'getProjects': design_1_wrapper_1
+11:02:14 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_1|/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm
+11:02:17 INFO  : Checking for BSP changes to sync application flags for project 'Process_Camera_new'...
+11:02:51 INFO  : The hardware specfication used by project 'Process_Camera_new' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+11:02:51 INFO  : The file '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/bitstream/design_1_wrapper.mmi' stored in project is removed.
+11:02:51 INFO  : The file '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/bitstream/design_1_wrapper.bit' stored in project is removed.
+11:02:51 INFO  : The updated bitstream files are copied from platform to folder '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/bitstream' in project 'Process_Camera_new'.
+11:02:51 INFO  : The file '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/psinit/psu_init.tcl' stored in project is removed.
+11:02:52 INFO  : The updated ps init files are copied from platform to folder '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/psinit' in project 'Process_Camera_new'.
+11:02:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:02:53 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:02:53 INFO  : 'jtag frequency' command is executed.
+11:02:53 INFO  : Sourcing of '/home/Xilinx/Vitis/2020.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
+11:02:54 INFO  : Context for 'APU' is selected.
+11:02:54 INFO  : System reset is completed.
+11:02:57 INFO  : 'after 3000' command is executed.
+11:02:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-04720093-0"}' command is executed.
+11:03:03 INFO  : FPGA configured successfully with bitstream "/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/bitstream/design_1_wrapper.bit"
+11:03:03 INFO  : Context for 'APU' is selected.
+11:03:04 INFO  : Hardware design and registers information is loaded from '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa'.
+11:03:04 INFO  : 'configparams force-mem-access 1' command is executed.
+11:03:04 INFO  : Context for 'APU' is selected.
+11:03:04 INFO  : Boot mode is read from the target.
+11:03:04 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:03:04 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+11:03:05 INFO  : The application '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+11:03:06 INFO  : 'set bp_3_5_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+11:03:07 INFO  : 'con -block -timeout 60' command is executed.
+11:03:07 INFO  : 'bpremove $bp_3_5_fsbl_bp' command is executed.
+11:03:07 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:03:07 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+11:03:08 INFO  : The application '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/Debug/Process_Camera_new.elf' is downloaded to processor 'psu_cortexa53_0'.
+11:03:08 INFO  : 'configparams force-mem-access 0' command is executed.
+11:03:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/Xilinx/Vitis/2020.1/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-04720093-0"}
+fpga -file /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/boot/fsbl.elf
+set bp_3_5_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_3_5_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/Debug/Process_Camera_new.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:03:08 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:03:09 INFO  : 'con' command is executed.
+11:03:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+11:03:09 INFO  : Launch script is exported to file '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/.sdk/launch_scripts/single_application_debug/debugger_process_camera_new-default.tcl'
+11:07:12 INFO  : Disconnected from the channel tcfchan#2.
+11:07:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:07:13 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:07:13 INFO  : 'jtag frequency' command is executed.
+11:07:13 INFO  : Sourcing of '/home/Xilinx/Vitis/2020.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
+11:07:13 INFO  : Context for 'APU' is selected.
+11:07:14 INFO  : System reset is completed.
+11:07:17 INFO  : 'after 3000' command is executed.
+11:07:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-04720093-0"}' command is executed.
+11:07:23 INFO  : FPGA configured successfully with bitstream "/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/bitstream/design_1_wrapper.bit"
+11:07:23 INFO  : Context for 'APU' is selected.
+11:07:23 INFO  : Hardware design and registers information is loaded from '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa'.
+11:07:23 INFO  : 'configparams force-mem-access 1' command is executed.
+11:07:23 INFO  : Context for 'APU' is selected.
+11:07:23 INFO  : Boot mode is read from the target.
+11:07:23 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:07:23 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+11:07:24 INFO  : The application '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+11:07:24 INFO  : 'set bp_7_24_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+11:07:25 INFO  : 'con -block -timeout 60' command is executed.
+11:07:25 INFO  : 'bpremove $bp_7_24_fsbl_bp' command is executed.
+11:07:25 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:07:25 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+11:07:27 INFO  : The application '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/Debug/Process_Camera_new.elf' is downloaded to processor 'psu_cortexa53_0'.
+11:07:27 INFO  : 'configparams force-mem-access 0' command is executed.
+11:07:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/Xilinx/Vitis/2020.1/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-04720093-0"}
+fpga -file /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/boot/fsbl.elf
+set bp_7_24_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_7_24_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/Debug/Process_Camera_new.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:07:27 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:07:27 INFO  : 'con' command is executed.
+11:07:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+11:07:27 INFO  : Launch script is exported to file '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/.sdk/launch_scripts/single_application_debug/debugger_process_camera_new-default.tcl'
+12:13:54 INFO  : Hardware specification for platform project 'design_1_wrapper_1' is updated.
+12:14:20 INFO  : Result from executing command 'getProjects': design_1_wrapper_1
+12:14:20 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_1|/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm
+12:14:24 INFO  : Checking for BSP changes to sync application flags for project 'Process_Camera_new'...
+12:14:49 INFO  : Disconnected from the channel tcfchan#4.
+12:14:50 INFO  : The hardware specfication used by project 'Process_Camera_new' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+12:14:50 INFO  : The file '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/bitstream/design_1_wrapper.bit' stored in project is removed.
+12:14:50 INFO  : The updated bitstream files are copied from platform to folder '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/bitstream' in project 'Process_Camera_new'.
+12:14:50 INFO  : The file '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/psinit/psu_init.tcl' stored in project is removed.
+12:14:51 INFO  : The updated ps init files are copied from platform to folder '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/psinit' in project 'Process_Camera_new'.
+12:14:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:14:53 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+12:14:53 INFO  : 'jtag frequency' command is executed.
+12:14:53 INFO  : Sourcing of '/home/Xilinx/Vitis/2020.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
+12:14:53 INFO  : Context for 'APU' is selected.
+12:14:54 INFO  : System reset is completed.
+12:14:57 INFO  : 'after 3000' command is executed.
+12:14:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-04720093-0"}' command is executed.
+12:15:02 INFO  : FPGA configured successfully with bitstream "/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/bitstream/design_1_wrapper.bit"
+12:15:02 INFO  : Context for 'APU' is selected.
+12:15:04 INFO  : Hardware design and registers information is loaded from '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa'.
+12:15:04 INFO  : 'configparams force-mem-access 1' command is executed.
+12:15:04 INFO  : Context for 'APU' is selected.
+12:15:04 INFO  : Boot mode is read from the target.
+12:15:04 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:15:04 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+12:15:05 INFO  : The application '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+12:15:05 INFO  : 'set bp_15_5_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+12:15:06 INFO  : 'con -block -timeout 60' command is executed.
+12:15:06 INFO  : 'bpremove $bp_15_5_fsbl_bp' command is executed.
+12:15:06 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:15:06 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+12:15:08 INFO  : The application '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/Debug/Process_Camera_new.elf' is downloaded to processor 'psu_cortexa53_0'.
+12:15:08 INFO  : 'configparams force-mem-access 0' command is executed.
+12:15:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/Xilinx/Vitis/2020.1/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-04720093-0"}
+fpga -file /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/design_1_wrapper_1/export/design_1_wrapper_1/sw/design_1_wrapper_1/boot/fsbl.elf
+set bp_15_5_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_15_5_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow /home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/Process_Camera_new/Debug/Process_Camera_new.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:15:08 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:15:08 INFO  : 'con' command is executed.
+12:15:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+12:15:08 INFO  : Launch script is exported to file '/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_Vitis/.sdk/launch_scripts/single_application_debug/debugger_process_camera_new-default.tcl'
+10:02:00 INFO  : Disconnected from the channel tcfchan#6.

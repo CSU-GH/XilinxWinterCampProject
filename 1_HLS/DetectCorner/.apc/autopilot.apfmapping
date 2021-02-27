@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="detectCorner.cpp" path="/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_HLS/source/detectCorner.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="test.cpp" path="/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_HLS/source/test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

@@ -1,0 +1,21 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../source/test.cpp in debug mode
+   Generating csim.exe
+Makefile.rules:379: recipe for target 'csim.exe' failed
+obj/test.o: In function `main':
+/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_HLS/DetectCorner/solution1/csim/build/../../../../source/test.cpp:19: undefined reference to `cv::imread(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_HLS/DetectCorner/solution1/csim/build/../../../../source/test.cpp:31: undefined reference to `cv::namedWindow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_HLS/DetectCorner/solution1/csim/build/../../../../source/test.cpp:33: undefined reference to `cv::_InputArray::_InputArray(cv::Mat const&)'
+/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_HLS/DetectCorner/solution1/csim/build/../../../../source/test.cpp:33: undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'
+/home/guohui/Work/HLS_Vivado_Vitis_Prj/Process_Camera/Process_Camera_HLS/DetectCorner/solution1/csim/build/../../../../source/test.cpp:35: undefined reference to `cv::waitKey(int)'
+obj/test.o: In function `cv::Mat::~Mat()':
+/usr/local/include/opencv2/core/mat.hpp:278: undefined reference to `cv::fastFree(void*)'
+obj/test.o: In function `cv::Mat::operator=(cv::Mat const&)':
+/usr/local/include/opencv2/core/mat.hpp:298: undefined reference to `cv::Mat::copySize(cv::Mat const&)'
+obj/test.o: In function `cv::Mat::release()':
+/usr/local/include/opencv2/core/mat.hpp:367: undefined reference to `cv::Mat::deallocate()'
+collect2: error: ld returned 1 exit status
+make: *** [csim.exe] Error 1
+ERR: [SIM 100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************
